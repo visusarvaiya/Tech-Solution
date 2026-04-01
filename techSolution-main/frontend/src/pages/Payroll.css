@@ -1,0 +1,97 @@
+.payroll-container {
+  padding: 30px 20px;
+  min-height: calc(100vh - 70px);
+}
+
+.payroll-info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.info-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.info-item:last-child {
+  border-bottom: none;
+}
+
+.info-item.net-salary {
+  background: #f8f9fa;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.info-label {
+  font-weight: 600;
+  color: #666;
+}
+
+.info-value {
+  color: #2c3e50;
+  font-weight: 500;
+}
+
+.payroll-breakdown {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 2px solid #eee;
+}
+
+.payroll-breakdown h3 {
+  margin-bottom: 15px;
+  color: #2c3e50;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+@media (max-width: 768px) {
+  .payroll-container {
+    padding: 20px 10px;
+  }
+
+  .info-item {
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px;
+  }
+
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+
+  .table-container {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  table {
+    font-size: 12px;
+  }
+
+  table th,
+  table td {
+    padding: 8px 4px;
+  }
+}
+
+@media (max-width: 480px) {
+  .payroll-container {
+    padding: 15px 5px;
+  }
+
+  table {
+    font-size: 11px;
+    min-width: 600px;
+  }
+}
+

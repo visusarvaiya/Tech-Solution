@@ -4,6 +4,8 @@
 
 A comprehensive HRMS solution for managing employee onboarding, profiles, attendance, leave, and payroll.
 
+## project url  - https://techsolution123.vercel.app
+
 ## Features
 
 - 🔐 **Secure Authentication** - Sign up/Sign in with role-based access
@@ -119,8 +121,8 @@ npm start
 4. Open your browser and navigate to `http://localhost:3000`
 
 5. Sign in with the default admin account:
-   - Email: `kavadparth54@gmail.com`
-   - Password: `Parth#2005`
+   - Email: 
+   - Password: 
    - Or use Employee ID: `ADMIN001`
 
 **Note:** You can also sign up a new admin account if needed, but the default admin is created automatically.

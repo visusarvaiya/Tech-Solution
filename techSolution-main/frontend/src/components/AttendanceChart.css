@@ -1,0 +1,14 @@
+.no-data {
+  text-align: center;
+  padding: 40px;
+  color: #666;
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .no-data {
+    padding: 20px;
+    font-size: 14px;
+  }
+}
+

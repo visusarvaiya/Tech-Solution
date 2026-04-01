@@ -1,0 +1,66 @@
+.letters-container {
+  padding: 30px 20px;
+  min-height: calc(100vh - 70px);
+}
+
+.letter-type-selector {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.letter-form {
+  margin-top: 20px;
+}
+
+.leave-details {
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 5px;
+  margin: 15px 0;
+}
+
+.leave-details p {
+  margin: 5px 0;
+}
+
+.letter-template {
+  padding: 40px;
+  font-family: 'Times New Roman', serif;
+  line-height: 1.8;
+  max-width: 800px;
+  margin: 0 auto;
+  background: white;
+}
+
+.letter-header {
+  text-align: center;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #333;
+  padding-bottom: 20px;
+}
+
+.letter-header h2 {
+  margin: 0;
+  font-size: 24px;
+  color: #2c3e50;
+}
+
+.letter-body {
+  text-align: justify;
+}
+
+.letter-body p {
+  margin: 10px 0;
+}
+
+@media (max-width: 768px) {
+  .letter-type-selector {
+    flex-direction: column;
+  }
+
+  .letter-template {
+    padding: 20px;
+  }
+}
+
